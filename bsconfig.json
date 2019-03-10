@@ -1,0 +1,24 @@
+{
+  "name": "reason-victory",
+  "sources": [
+    {
+      "dir": "src",
+      "subdirs": true
+    }
+  ],
+  "bs-dependencies": [
+    "reason-react"
+  ],
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  },
+  "reason": {
+    "react-jsx": 2
+  },
+  "suffix": ".bs.js",
+  "bsc-flags": [
+    "-bs-super-errors"
+  ],
+  "refmt": 3
+}
